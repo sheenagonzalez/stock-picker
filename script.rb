@@ -1,3 +1,4 @@
+# Takes an array of stock prices, one for each hypothetical day. Returns a pair of days representing the best day to buy and the best day to sell. Days start at 0.
 def stock_picker(stock_prices) 
   lowest_buy_price = stock_prices.at(0) || 0
   lowest_buy_index = 0
