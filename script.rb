@@ -14,5 +14,5 @@ def stock_picker(stock_prices)
       max_profit_indices = [lowest_buy_index, curr_index]
     end
   end
-  max_profit_indices
+  max_profit > 0 ? max_profit_indices : nil
 end
